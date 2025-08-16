@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Tee Projects</title>
+    <!-- tailwind css cdn link -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <!-- font awsome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="style/style.css" />
+  </head>
+  <body>
+    <header class="max-w-6xl mx-auto mt-12">
+      <div class="flex flex-col md:flex-row w-full gap-4 p-2 md:p-0">
+        <div class="w-full md:w-1/2 space-y-5">
+          <h2
+            class="text-[#1C1C1C] text-4xl md:text-7xl font-bold mb-5 leading-12 md:leading-20 tracking-tighter"
+          >
+            It's good <br />
+            tea time at The Tea House
+          </h2>
+          <p class="text-[#777777]">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <button
+            id="btn"
+            class="bg-gradient-to-r from-orange-400 to-red-500 py-3 px-8 rounded-md text-white flex items-center justify-center gap-2 text-xl cursor-pointer"
+          >
+            <span>Explore More</span><img src="./images/arrow.png" alt="" />
+          </button>
+        </div>
+        <div class="w-full md:w-1/2 relative">
+          <img src="./images/banner.png" alt="" />
+          <div
+            class="absolute bottom-0 left-10 flex items-center justify-center shadow-sm w-60 h-24 rounded-md z-10 bg-white gap-2"
+          >
+            <i class="fa-solid fa-star text-[#FFDC64] text-3xl"></i>
+            <div>
+              <p class="text-xl">5.00</p>
+              <p class="text-xl">Trust Pilot Ratings</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto mt-20">
+      <section class="">
+        <h2
+          class="text-center text-[#1C1C1C] font-bold text-3xl md:text-5xl mb-4"
+        >
+          Our Featured Products
+        </h2>
+        <p class="text-center px-4 md:px-36 font-medium text-[#777777]">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <div class="mt-12 grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4">
+          <div
+            class="w-full md:w-[267px] text-center shadow-md rounded-md py-8 px-4 border border-gray-100 bg-gradient-to-t from-[#f5f5f5] to-[#fefefe]"
+          >
+            <img class="w-full px-16" src="./images/tea-1.png" alt="" />
+            <h4 class="text-2xl font-bold my-2">Milk Tea</h4>
+            <p class="text-[#777777]">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="w-full md:w-[267px] text-center shadow-md rounded-md py-8 px-4 border border-gray-100 bg-gradient-to-t from-[#f5f5f5] to-[#fefefe]"
+          >
+            <img class="w-full px-16" src="./images/tea-2.png" alt="" />
+            <h4 class="text-2xl font-bold my-2">Black Tea</h4>
+            <p class="text-[#777777]">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="w-full md:w-[267px] text-center shadow-md rounded-md py-8 px-4 border border-gray-100 bg-gradient-to-t from-[#f5f5f5] to-[#fefefe]"
+          >
+            <img class="w-full px-16" src="./images/tea-3.png" alt="" />
+            <h4 class="text-2xl font-bold my-2">Lemon Tea</h4>
+            <p class="text-[#777777]">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+          <div
+            class="w-full md:w-[267px] text-center shadow-md rounded-md py-8 px-4 border border-gray-100 bg-gradient-to-t from-[#f5f5f5] to-[#fefefe]"
+          >
+            <img class="w-full px-16" src="./images/tea-4.png" alt="" />
+            <h4 class="text-2xl font-bold my-2">Green Tea</h4>
+            <p class="text-[#777777]">
+              Creamer could be replaced by fresh milk
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="flex flex-col md:flex-row w-full my-20">
+        <div class="grid grid-cols-1 md:grid-cols-2 w-full md:h-1/2">
+          <div
+            class="w-full md:w-1/2 flex flex-col justify-center items-center"
+          >
+            <div
+              class="w-[238px] h-[136px] rounded-md bg-gradient-to-r from-[#fff2eb] to-[#ffe6e6]"
+            ></div>
+            <div class="bg-[#eef1eb] mt-4 rounded-md w-[238px]">
+              <img
+                class="py-10 px-4 w-[238px] h-[355.28px]"
+                src="./images/fresh-2.png"
+                alt=""
+              />
+            </div>
+          </div>
+          <div
+            class="w-full md:w-1/2 flex flex-col justify-center items-center mt-4 md:mt-0"
+          >
+            <div class="bg-[#fef6e9] w-[238px]">
+              <img
+                class="py-14 px-3 rounded-md h-[355.28px] w-[238px]"
+                src="./images/fresh-1.png"
+                alt=""
+              />
+            </div>
+            <div
+              class="w-[238px] mt-4 h-[136px] rounded-md bg-gradient-to-r from-[#dcdcdc] to-[#fefefe]"
+            ></div>
+          </div>
+        </div>
+        <div class="w-full md:h-1/2 p-4 md:p-0">
+          <h2
+            class="font-bold text-4xl md:text-5xl text-[#1C1C1C] leading-12 md:leading-18"
+          >
+            Great Tea, Freshly Presented
+          </h2>
+          <p class="text-[#777777] font-medium mt-5 mb-8">
+            The meaning of gong cha is chanese is to provide the best tea to
+            emperor from all possessions . It represents the highest quality and
+            self expectation. Establishing in 2006, Gong cha had been deeply
+            appreciated by its custoers because of good words of mouth and
+            unique customized service orginated from Taiwan.
+          </p>
+          <h3 class="text-[#1C1C1C] font-bold mt-5">Unique Taste</h3>
+          <p class="text-[#777777] font-medium mt-4">
+            A Unique and different style from other teapots gives a luxurious
+            and minimalist impression
+          </p>
+          <h3 class="text-[#1C1C1C] font-bold mt-5">Premium Quality</h3>
+          <p class="text-[#777777] font-medium mt-4">
+            Premium Quality that makes tea more elegant and more durable when
+            you use it.
+          </p>
+        </div>
+      </section>
+
+      <!--! todo <section></section> -->
+      <section class="mt-20">
+        <h3 class="text-center text-5xl font-bold text-[#1C1C1C]">
+          News & Events
+        </h3>
+        <p class="px-2 md:px-40 text-center mt-5 font-medium text-[#777777]">
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected
+          humour, or randomised words which don't look even slightly believable.
+        </p>
+        <div
+          class="mt-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 space-y-4 md:space-y-0 space-x-0 md:space-x-4 p-2 md:p-0"
+        >
+          <div class="w-[364px] shadow-md border border-gray-200 rounded-md">
+            <img src="./images/news-1.png" class="w-full p-5" alt="" />
+            <div class=" space-y-2 p-7">
+              <h4 class="text-[#777777] font-medium">Feb 05, 2027</h4>
+              <h2 class="text-2xl font-semibold text-[#1c1c1c]">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-[#777777] font-medium">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <button class="cursor-pointer text-[#1c1c1c] font-semibold">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="w-[364px] shadow-md border border-gray-200 rounded-md">
+            <img src="./images/news-2.png" class="w-full p-5" alt="" />
+            <div class=" space-y-2 p-7">
+              <h4 class="text-[#777777] font-medium">Feb 05, 2027</h4>
+              <h2 class="text-2xl font-semibold text-[#1c1c1c]">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-[#777777] font-medium">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <button class="cursor-pointer text-[#1c1c1c] font-semibold">
+                Learn More
+              </button>
+            </div>
+          </div>
+          <div class="w-[364px] shadow-md border border-gray-200 rounded-md">
+            <img src="./images/news-3.png" class="w-full p-5" alt="" />
+            <div class=" space-y-2 p-7">
+              <h4 class="text-[#777777] font-medium">Feb 05, 2027</h4>
+              <h2 class="text-2xl font-semibold text-[#1c1c1c]">
+                Collecting 8 points for discount
+              </h2>
+              <p class="text-[#777777] font-medium">
+                There are many variations of passages of Lorem Ipsum available.
+              </p>
+              <button class="cursor-pointer text-[#1c1c1c] font-semibold">
+                Learn More
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-gradient-to-r from-[#fff3eb] to-[#ffe6e6] mt-8 md:mt-20">
+      <div class="max-w-6xl mx-auto py-12 md:py-32 p-4 md:p-0">
+        <div class="flex items-center justify-between w-full">
+          <div><img src="./images/cup.png" alt="" /></div>
+          <div class="flex flex-col md:flex-row items-center gap-4">
+            <h4>Ready to get strated?</h4>
+            <button
+              id="btn"
+              class="bg-gradient-to-r from-orange-400 to-red-500 py-3 px-8 rounded-md text-white flex items-center justify-center gap-2 text-xl cursor-pointer"
+            >
+              <span>Get Started</span>
+            </button>
+          </div>
+        </div>
+        <div class="mt-12 grid grid-rows-1 md:grid-cols-2 lg:grid-cols-4">
+          <div class="space-y-2">
+            <h4 class="text-xl font-semibold text-[#1c1c1c]">Quick Links</h4>
+            <p class="text-[#777777] font-medium">Home</p>
+            <p class="text-[#777777] font-medium">About Us</p>
+            <p class="text-[#777777] font-medium">Insurance</p>
+            <p class="text-[#777777] font-medium">Privacy Policy</p>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-xl font-semibold text-[#1c1c1c]">Our Service</h4>
+            <p class="text-[#777777] font-medium">Life Insurance</p>
+            <p class="text-[#777777] font-medium">Car Insurance</p>
+            <p class="text-[#777777] font-medium">Health Insurance</p>
+            <p class="text-[#777777] font-medium">House Insurance</p>
+          </div>
+          <div class="space-y-2">
+            <h4 class="text-xl font-semibold text-[#1c1c1c]">Helps</h4>
+            <p class="text-[#777777] font-medium">FAQs</p>
+            <p class="text-[#777777] font-medium">Contact Us</p>
+          </div>
+          <div>
+            <h2 class="text-[#1c1c1c] font-bold text-2xl">
+              Subscribe to our newsletter
+            </h2>
+            <div class="flex items-center justify-center relative mt-5">
+              <input
+                type="text"
+                name=""
+                id=""
+                class="outline-none border-b-2 border-gray-400 py-2 px-4 w-3/4 md:w-full"
+                placeholder="Email address"
+              />
+              <button
+                type="submit"
+                class="bg-gradient-to-r from-[#ff722f] to-[#ff1f0d] rounded-full w-8 h-8 flex items-center justify-center absolute top-1/2 right-0 md:-right-8 transform -translate-y-1/2 cursor-pointer"
+              >
+                <img class="mt-2" src="./images/Vector (2).png" alt="" />
+              </button>
+            </div>
+            <div class="flex gap-4 mt-8">
+              <i
+                class="fa-brands fa-facebook-f text-[#494949] text-xl cursor-pointer"
+              ></i>
+              <i
+                class="fa-brands fa-twitter text-[#494949] text-xl cursor-pointer"
+              ></i>
+              <i
+                class="fa-brands fa-instagram text-[#494949] text-xl cursor-pointer"
+              ></i>
+            </div>
+          </div>
+        </div>
+        <h4 class="text-center mt-8 text-[#494949]">
+          © 2027 UIDesign.to - All rights reserved.
+        </h4>
+      </div>
+    </footer>
+  </body>
+</html>
